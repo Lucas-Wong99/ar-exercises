@@ -5,7 +5,6 @@ puts "Exercise 2"
 puts "----------"
 
 # Your code goes here ...
-class Store
 
 @store1 = Store.find_by(id: 1)
 
@@ -14,4 +13,4 @@ class Store
 @store1.name = "Coquitlam"
 @store1.save
 
-end
+
